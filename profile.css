@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #7fabcf;
+    text-align: end;
+}
+
+.header>h4 {
+    padding: 10px;
+}
+
+.header>h4>span{
+    margin-left: 10px;
+    background-color: tomato;
+    padding: 3px 6px;
+    border-radius: 100px;
+}
+body {
+    background-color: #d0e3f3;
+}
+
+.overlay {
+    background-color: gray;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    overflow: hidden;
+}
+
+.block {
+    background-color: rgb(255, 255, 255);
+    width: 480px;
+    margin: 10px auto;
+    padding-top: 10px;
+}
+
+.block b{
+    margin-left: 10px;
+}
+
+.info {
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.info input {
+    margin: 5px;
+    width: 370px;
+}
+
+.close {
+    position: relative;
+    right: -370px;
+    font-size: 15px;
+    color: gray;
+    top: -4px;
+    cursor: pointer;
+}
+
+.close:hover{
+    color: black;
+}
+
+.d-none{
+    display: none;
+}
+
+.letter {
+    cursor: pointer;
+}
